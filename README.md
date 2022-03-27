@@ -1,4 +1,4 @@
-# Matriz de correlación en R con ggplot2
+# Matriz de correlación en ggplot2 con R
 
 Una matriz de correlación es una tabla de coeficientes de correlación para un conjunto de variables que se utiliza para determinar si existe una relación entre las variables. El coeficiente indica tanto la fuerza de la relación como la dirección (correlaciones positivas frente a negativas).
 
