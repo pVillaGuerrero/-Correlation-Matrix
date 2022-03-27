@@ -36,7 +36,6 @@ Mediante la función `cor` calculamos el coeficiente de correlación de Pearson,
 
 ```{r warning=FALSE, message=FALSE}
 matSuelo = cor(suelo, method = "pearson")
-matSuelo
 ```
 
 ## Matriz en formato largo
@@ -45,7 +44,6 @@ Usamos la función `melt` para pivotar la tabla y arreglar los datos y disponerl
 
 ```{r warning=FALSE, message=FALSE}
 corSuelo = melt(matSuelo)
-corSuelo
 ```
 
 ## Formateo
@@ -64,7 +62,6 @@ Estableceremos nuestra escala de correlación, con los respectivos intervalos.
 
 ```{r warning=FALSE, message=FALSE}
 escala = seq(-1,1,0.2)
-escala
 ```
 
 ## Visualización de la matriz de correlación en ggplot2
